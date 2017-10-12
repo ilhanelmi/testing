@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <!-- Webbrowser karaktersæt UTF-8 for de fleste symboler og karakterer -->
+  <meta charset="utf-8">
+  <!-- Titel for siden -->
+  <title>IN2 Design</title>
+  <!-- Link til stylesheet -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <!-- Link til font google -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Varela+Round" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"> -->
+  <!-- Meta tag for mobilvisning -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Search Icon -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body id="dorte">
+
+  <header>
+    <div id="header">
+      <a href="index.html"><img src="./img/logoin2.png" alt="IN2 logo">
+
+      <div id=mynav class=navi> <!--yderste lag-->
+        <a href="javascript:void(0)" class="closebut" onclick="closeNav()">&times;</a> <!-- knap til at lukke nav-->
+
+        <div class="overlayer"> <!--indhold i yderste lag-->
+          <a href="index.html">Forside</a>
+          <a href="webshop.html">Webshop</a>
+          <a href="indretning.html">Indretning</a>
+          <a href="inspiration.html">Inspiration</a>
+          <a href="kontakt.html">Kontakt</a>
+        </div>
+      </div>
+      <span onclick="openNav()">☰</span> <!--open nav-->
+    </div>
+  </header>
+<!--ilhan start -->
+  <main>
+
+<div id="box">
+    <section>
+      <h2>Kontaktinformation</h2>
+      <h3>Hovedkontor</h3>
+      <p>Vestergade 33B, 4600 Køge</p>
+      <h3>Kundeservice</h3>
+      <p> 34 12 34 12</p>
+      <p> Alle hverdage fra 10 - 18</p>
+            <!--<a href="produktfitness.html"><img src="./img/fitknap2.png" alt="link til fitness segment"></a> -->
+    </section>
+
+    <section>
+      <h2 id="second">Tilmeld dig vores inspirerende nyhedsbrev</h2>
+      <p> Få en masse inspiration til alt </p>
+        <p> indenfor boligindretning Vi sender to</p>
+        <p>  gange om ugen, så tjek indbakken,</p>
+        <p> og du kan altid framelde </p>
+        <p>  dig igen.</p>
+    </section>
+
+      <p1><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18100.51819930405!2d12.157669067515647!3d55.452820430744524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652f0e356b4c9c7%3A0x471e9d52482e4214!2s4600+K%C3%B8ge!5e0!3m2!1sda!2sdk!4v1507758773029" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></p1>
+</div>
+
+  </main>
+  <!--ilhan start -->
+
+  <footer>
+    <p>&copy; IN2 DESIGN 2017 - All Rights Reserved <a href="http://www.facebook.com" target="_blank"><img src="img/facebook-icon.png" alt="facebook-logo"></a></p>
+  </footer>
+
+<script> /* javascript til at åbne menuen, når der klikkes på ☰-*/
+function openNav(){
+  document.getElementById("mynav").style.width = "100%";
+}
+function closeNav(){ /*javascript til at lukke menuen når der trykkes på x */
+  document.getElementById("mynav").style.width = "0%";
+}
+</script>
+
+</body>
+</html>
